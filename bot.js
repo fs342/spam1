@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 
-var prefix = "#";
+var prefix = "-";
 
 client.on('message', message => {
 
@@ -39,8 +39,8 @@ client.on('message', message => {
 
 
 client.on('ready', async() => {
-var server = "529980824645402624"; 
-var channel = "529980979536986122";
+var server = "531510664624209941"; 
+var channel = "531512545941389354";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > ')
     },305);
